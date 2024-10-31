@@ -11,7 +11,7 @@ app.config["MAIL_SERVER"] = "smtp.gmail.com"  # Corrected mail server key
 app.config["MAIL_PORT"] = 465
 app.config["MAIL_USE_SSL"] = True
 app.config["MAIL_USERNAME"] = "gauravpande568@gmail.com"  # Update with environment variable in production
-app.config["MAIL_PASSWORD"] = "xstd iwfm mgdd ekld"  # Update with environment variable in production
+app.config["MAIL_PASSWORD"] = ""  # Update with environment variable in production
 db = SQLAlchemy(app)
 
 mail = Mail(app)
